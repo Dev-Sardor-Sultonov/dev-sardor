@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+/* start header */
+header {
+    width: 100%;
+    margin: 1.5rem auto;
+}
+
+.nav .logo {
+    margin-left: 32.5rem;
+}
+
+.menu_ul ul {
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_ul li {
+    font-size: 25px;
+
+}
+
+.menu_ul li {
+    color: aliceblue;
+}
+
+/*end header*/
+/*start main  */
+.main {
+    width: 100%;
+    margin: 0auto;
+}
+
+.main_box img {
+    width: 100%;
+}
+
+/* end main */
+/* srart info section */
+.info {
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.flex_info_box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info_box {
+    width: 72%;
+    background-color: antiquewhite;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.info_box h1 {
+    color: blue;
+    margin-bottom: 1rem;
+}
+
+.info_box p {
+    width: 70%;
+    word-spacing: 2px;
+    font-size: 22px;
+}
+
+.info_box_two {
+    width: 30%;
+    background-color: antiquewhite;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.info_box_two h1 {
+    color: blue;
+    margin-bottom: 1rem;
+}
+
+.info-box_two p{
+width: 90%;
+word-spacing: 2px;
+font-size: 20px;
+
+}
+.info_box_two a{
+color: blue;
+font-size: 20px;
+margin-top: 2rem;
+}
+/* end info section */
