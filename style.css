@@ -16,7 +16,7 @@ li {
 
 a {
     text-decoration: none;
-    color: darkgoldenrod;
+    color: rgb(184, 22, 122);
 }
 
 /* start header */
@@ -107,15 +107,42 @@ header {
     margin-bottom: 1rem;
 }
 
-.info-box_two p{
-width: 90%;
-word-spacing: 2px;
-font-size: 20px;
+.info-box_two p {
+    width: 90%;
+    word-spacing: 2px;
+    font-size: 20px;
 
 }
-.info_box_two a{
-color: blue;
-font-size: 20px;
-margin-top: 2rem;
+
+.info_box_two a {
+    color: blue;
+    font-size: 20px;
+    margin-top: 2rem;
 }
+
 /* end info section */
+
+/* start footer */
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--grey);
+}
+
+.footer_flex {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer_box_two h2 {
+    font-size: 30px;
+    margin-bottom: .5rem;
+}
+
+.footer_box_two a {
+    color: blue;
+
+}
